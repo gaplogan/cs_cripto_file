@@ -263,6 +263,8 @@ namespace CriptoFile
             // Construa o nome do arquivo para o arquivo descriptografado.
             string outFile = DecrFolder + inFile.Substring(0, inFile.LastIndexOf("."));
 
+            System.Windows.Forms.MessageBox.Show(outFile);
+
             try
             {
                 // Use objetos FileStream para ler o criptografado
